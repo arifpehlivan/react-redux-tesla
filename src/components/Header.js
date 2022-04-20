@@ -1,9 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
 
 const header = () => {
   return (
-    <div>header</div>
+    <Container>
+        Header
+    </Container>
   )
 }
 
 export default header
+
+const Container = styled.div``
